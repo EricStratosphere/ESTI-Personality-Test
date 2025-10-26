@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import questions from './data/questions'
 import QuestionBox from "./components/questionBox";
 import PageList from "./components/PageList";
