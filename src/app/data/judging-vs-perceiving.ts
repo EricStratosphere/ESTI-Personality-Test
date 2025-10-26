@@ -1,4 +1,3 @@
-import { time } from "console";
 
 enum JP{
     perceiving, // [1, 2, 3]
