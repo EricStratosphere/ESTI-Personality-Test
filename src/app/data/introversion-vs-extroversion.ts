@@ -1,5 +1,3 @@
-import { group } from "console";
-
 enum IE{
     Introversion, // [1, 2, 3]
     Extroversion // [2.15, 3, 4]

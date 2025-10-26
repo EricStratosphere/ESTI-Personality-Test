@@ -1,6 +1,5 @@
 import './styles/question-box.css'
 import type {question}  from '../data/questions'
-import {useEffect, useState} from 'react';
 
 
 interface questionBoxProp{

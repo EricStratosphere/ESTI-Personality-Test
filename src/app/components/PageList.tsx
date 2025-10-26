@@ -1,5 +1,4 @@
-import { on } from "events"
-import questions from "../data/questions"
+
 import type { question } from "../data/questions"
 import './styles/pagelist.css'
 import Link from "next/link"

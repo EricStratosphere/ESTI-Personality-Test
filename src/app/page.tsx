@@ -1,21 +1,13 @@
 "use client";
 
-import Image from "next/image";
 import { useState, useEffect } from "react";
-import { solveIE } from "./data/introversion-vs-extroversion";
-import { solveJP } from "./data/judging-vs-perceiving";
-import { solveSN } from "./data/sensing-vs-intuition";
-import { solveTF } from "./data/thinking-vs-feeling";
 import questions from './data/questions'
 import QuestionBox from "./components/questionBox";
 import PageList from "./components/PageList";
 import Link from "next/link";
-import { Http2ServerRequest } from "http2";
 export default function Home() {
   const [myQuestions, setQuestions] = useState(questions);
   const [pageIndex, setPageIndex] = useState(0);
-  const score = myQuestions[0][0].score;
-
   return (
   <>
     <div className="question-div">
