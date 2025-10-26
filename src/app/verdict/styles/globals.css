@@ -1,0 +1,63 @@
+.personality-card{
+    font-family : monospace;
+    background-color: none;
+    text-align : center;
+    padding : 0;
+    font-size : 70px;
+    margin-bottom: 0;
+}
+.personality-card h3{
+    margin : 20px;
+}
+
+.image-box{
+    margin : 0px 0px 50px 0px;
+    width : 100vw;
+    height : auto;
+    overflow:hidden;
+}
+
+.image-box img{
+    width : 100%;
+    object-fit: cover;
+}
+
+.image-box-parent{
+    width : auto;
+    height : auto;
+    margin-top : 0px;
+    display : flex;
+    justify-content: center;
+    margin : 0 0 0 0;
+}
+
+.personality-data{
+    margin : 0 0 0 0;
+    width : 100vw;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 20px;
+    /* background-color: blue; */
+}
+
+.personality-data h3{
+    margin : 0 0 0 0;
+    font-size : 3rem;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.personality-data p{
+    margin : 0 0 0 0;
+    font-size : 2rem;
+    color : rgb(206, 189, 189);
+    font-family : monospace;
+    text-align: center;
+    margin : 0px 50px 0px 50px;
+    padding : 40px;
+    padding-top : 60px;
+    background-color: rgb(68, 64, 82);
+    border-radius: 50px;
+    box-shadow : 0px 10px 40px 10px rgb(4, 2, 15);
+    margin-bottom : 30px;
+}
