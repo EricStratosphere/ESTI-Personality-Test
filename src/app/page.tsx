@@ -33,7 +33,7 @@ export default function Home() {
           myQuestions : JSON.stringify(myQuestions),
         },
       }}>
-        <button>Verdict</button>
+        <button className="verdict">Verdict</button>
       </Link>
 
       :
