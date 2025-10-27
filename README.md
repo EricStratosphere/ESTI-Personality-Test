@@ -121,7 +121,7 @@ The full implementation of the app for testing can be found on this domain:
 
 https://esti-personality-test.vercel.app
 
-## Run manually on localhost:
+## Run manually on localhost
 
 Clone this repo into your local machine. Make sure that you have node installed. Then open this repository on your IDE, and on its terminal, run "npm run dev".
 

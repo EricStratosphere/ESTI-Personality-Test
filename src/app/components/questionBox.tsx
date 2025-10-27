@@ -33,7 +33,9 @@ export default function QuestionBox({questionProp, rowIndex, columnIndex, setQue
     <>
         <div className={"question-box"}>
             
-            {questionProp[rowIndex][columnIndex].question}
+            <h2>
+                {questionProp[rowIndex][columnIndex].question}
+            </h2>
             <div className='buttons-container'>
                 <h3>
                     Disagree
