@@ -1,6 +1,6 @@
 ## ESTI Personality Test
 
-This Project is a reimplementation of the MBTI (Myers Briggs Type Indicator) - Personality Test which is a quiz formally taken to identify an objective assessment of one's personality. I say this is a reimplementation because the original MBTI algorithm implements models such as Logistic Regression and the Naive Bayes theorem rather than the more primitive Mamdani Fuzzy Inference Engine implementation. 
+This Project is a reimplementation of the MBTI (Myers Briggs Type Indicator) - Personality Test which is a quiz formally taken to make an objective assessment of one's personality. I say this is a reimplementation because the original MBTI implementation uses an undisclosed algorithm based on Carl Jung's theory of Personality Types rather than a primitive intelligent systems algorithm such as the Mamdani Fuzzy Inference Engine. 
 
 The MBTI questionnaire assesses the taker of the quiz based on four dichotomies, namely: 
 
